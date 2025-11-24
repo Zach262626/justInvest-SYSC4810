@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Created new project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/AccessControlService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/DataSeeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/PermissionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/RolePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/RolePermissionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Created the database tables" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="com.intellij.jpb.FlywayMigrationScript" />
       </list>
     </option>
   </component>
@@ -109,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764006902057</updated>
-      <workItem from="1764006903109" duration="4291000" />
+      <workItem from="1764006903109" duration="4917000" />
     </task>
     <task id="LOCAL-00001" summary="Created new project">
       <option name="closed" value="true" />
@@ -119,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764009312604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created the database tables">
+      <option name="closed" value="true" />
+      <created>1764012914273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764012914273</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created the database tables">
+      <option name="closed" value="true" />
+      <created>1764012917961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764012917961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new project" />
+    <MESSAGE value="Created the database tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the database tables" />
   </component>
 </project>
