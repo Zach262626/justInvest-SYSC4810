@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="restart">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem1c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem1cTest.java" afterDir="false" />
+    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Problem2c + testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem3a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem3b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem3Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,10 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Problem1c.executor": "Run",
+    "Application.Problem2cTest.executor": "Run",
     "JUnit.Problem1cTest.executor": "Run",
+    "JUnit.Problem2cTest.executor": "Run",
+    "JUnit.Problem3Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -58,16 +62,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810" />
+      <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810\src\test\java\mylabs\app" />
       <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810\src\main\java\mylabs\app" />
+      <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="mylabs.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem1cTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylabs.app.Main" />
+  <component name="RunManager" selected="JUnit.Problem3Test">
+    <configuration name="Problem1c" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem1c" />
       <module name="justInvest-SYSC4810" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem1c" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem1c" />
+    <configuration name="Problem2cTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem2cTest" />
       <module name="justInvest-SYSC4810" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +112,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem2cTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="justInvest-SYSC4810" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylabs.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mylabs.app" />
+      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem2cTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="justInvest-SYSC4810" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylabs.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mylabs.app" />
+      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem3Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem3Test" />
+        <item itemvalue="JUnit.Problem2cTest" />
+        <item itemvalue="Application.Problem2cTest" />
         <item itemvalue="JUnit.Problem1cTest" />
         <item itemvalue="Application.Problem1c" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764030634548</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Problem1c + testing">
+      <option name="closed" value="true" />
+      <created>1764035549419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764035549419</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Problem2c + testing">
+      <option name="closed" value="true" />
+      <created>1764041742028</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764041742028</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +248,8 @@
     <MESSAGE value="Created the database tables" />
     <MESSAGE value="renamed file" />
     <MESSAGE value="restart" />
-    <option name="LAST_COMMIT_MESSAGE" value="restart" />
+    <MESSAGE value="Problem1c + testing" />
+    <MESSAGE value="Problem2c + testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem2c + testing" />
   </component>
 </project>
