@@ -9,46 +9,46 @@ public class Problem1cTest {
 
     @Test
     public void testClientOperations() {
-        assertTrue(Problem1c.validateOperationAccess("C", "1", BUSINESS_HOURS));
-        assertTrue(Problem1c.validateOperationAccess("C", "2", BUSINESS_HOURS));
-        assertTrue(Problem1c.validateOperationAccess("C", "4", BUSINESS_HOURS));
-        assertFalse(Problem1c.validateOperationAccess("C", "3", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Client", "1", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Client", "2", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Client", "4", BUSINESS_HOURS));
+        assertFalse(Problem1c.validateOperationAccess("Client", "3", BUSINESS_HOURS));
     }
 
     @Test
     public void testPremiumClientOperations() {
-        assertTrue(Problem1c.validateOperationAccess("PC", "3", BUSINESS_HOURS));
-        assertTrue(Problem1c.validateOperationAccess("PC", "5", BUSINESS_HOURS));
-        assertFalse(Problem1c.validateOperationAccess("PC", "6", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Premium Client", "3", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Premium Client", "5", BUSINESS_HOURS));
+        assertFalse(Problem1c.validateOperationAccess("Premium Client", "6", BUSINESS_HOURS));
     }
 
     @Test
     public void testFinancialAdvisorOperations() {
-        assertTrue(Problem1c.validateOperationAccess("FA", "3", BUSINESS_HOURS));
-        assertTrue(Problem1c.validateOperationAccess("FA", "7", BUSINESS_HOURS));
-        assertFalse(Problem1c.validateOperationAccess("FA", "6", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Financial Advisor", "3", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Financial Advisor", "7", BUSINESS_HOURS));
+        assertFalse(Problem1c.validateOperationAccess("Financial Advisor", "6", BUSINESS_HOURS));
     }
 
     @Test
     public void testFinancialPlannerOperations() {
-        assertTrue(Problem1c.validateOperationAccess("FP", "6", BUSINESS_HOURS));
-        assertTrue(Problem1c.validateOperationAccess("FP", "3", BUSINESS_HOURS));
-        assertFalse(Problem1c.validateOperationAccess("FP", "7", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Financial Planner", "6", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Financial Planner", "3", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Financial Planner", "7", BUSINESS_HOURS));
     }
 
     @Test
     public void testTellerOperations() {
-        assertTrue(Problem1c.validateOperationAccess("T", "1", BUSINESS_HOURS));
-        assertTrue(Problem1c.validateOperationAccess("T", "2", BUSINESS_HOURS));
-        assertFalse(Problem1c.validateOperationAccess("T", "3", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Teller", "1", BUSINESS_HOURS));
+        assertTrue(Problem1c.validateOperationAccess("Teller", "2", BUSINESS_HOURS));
+        assertFalse(Problem1c.validateOperationAccess("Teller", "3", BUSINESS_HOURS));
     }
 
     @Test
     public void testTellerTimeRestrictions() {
-        assertFalse(Problem1c.validateOperationAccess("T", "1", LocalTime.of(8, 59)));
-        assertTrue(Problem1c.validateOperationAccess("T", "1", LocalTime.of(9, 0)));
-        assertTrue(Problem1c.validateOperationAccess("T", "1", LocalTime.of(16, 59)));
-        assertFalse(Problem1c.validateOperationAccess("T", "1", LocalTime.of(17, 1)));
+        assertFalse(Problem1c.validateOperationAccess("Teller", "1", LocalTime.of(8, 59)));
+        assertTrue(Problem1c.validateOperationAccess("Teller", "1", LocalTime.of(9, 0)));
+        assertTrue(Problem1c.validateOperationAccess("Teller", "1", LocalTime.of(16, 59)));
+        assertFalse(Problem1c.validateOperationAccess("Teller", "1", LocalTime.of(17, 1)));
     }
 
     @Test
