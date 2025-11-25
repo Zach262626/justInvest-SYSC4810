@@ -9,9 +9,11 @@ import org.junit.jupiter.api.Test;
 
 
 public class Problem2cTest {
+    private static final String TEST_DB = "passwords_test.txt";
 
     @BeforeEach
     public void setUp() {
+        Problem2c.setPasswordDatabase(TEST_DB);
         deletePasswordsFile();
     }
 
@@ -72,7 +74,7 @@ public class Problem2cTest {
     public void testFileFormatIsCorrect() throws Exception {
         Problem2c.addUser("format", "Pass999$", "Financial Planner");
 
-        String line = Files.readAllLines(Paths.get("passwords.txt")).get(0);
+        String line = Files.readAllLines(Paths.get(TEST_DB)).get(0);
         long pipeCount = line.chars().filter(ch -> ch == '|').count();
 
         assertEquals(pipeCount, 3);
@@ -105,7 +107,7 @@ public class Problem2cTest {
 
     private void deletePasswordsFile() {
         try {
-            Files.deleteIfExists(Paths.get("passwords.txt"));
+            Files.deleteIfExists(Paths.get(TEST_DB));
         } catch (Exception e) {
             //
         }

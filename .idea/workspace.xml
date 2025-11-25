@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Problem2c + testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem3a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem3b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem3Test.java" afterDir="false" />
+    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Problem3ab + testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem4ab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/passwords_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/sampleUserNamePassword.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem2c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem2c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem2cTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem2cTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Zach262626"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Zach262626/justInvest-SYSC4810.git",
+    "accountId": "1aac4d85-b9d1-49e7-be30-8f67188ced8b"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.3.6\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -47,6 +63,9 @@
     "JUnit.Problem1cTest.executor": "Run",
     "JUnit.Problem2cTest.executor": "Run",
     "JUnit.Problem3Test.executor": "Run",
+    "JUnit.Problem4Test.executor": "Run",
+    "JUnit.Problem4Test.testLoginCaseSensitiveUsername.executor": "Run",
+    "JUnit.app in justInvest-SYSC4810.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -70,9 +89,9 @@
       <recent name="mylabs.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem3Test">
-    <configuration name="Problem1c" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem1c" />
+  <component name="RunManager" selected="JUnit.app in justInvest-SYSC4810">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylabs.app.Main" />
       <module name="justInvest-SYSC4810" />
       <extension name="coverage">
         <pattern>
@@ -80,49 +99,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem2cTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem2cTest" />
-      <module name="justInvest-SYSC4810" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mylabs.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem1cTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="justInvest-SYSC4810" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mylabs.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mylabs.app" />
-      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem1cTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem2cTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="justInvest-SYSC4810" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mylabs.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mylabs.app" />
-      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem2cTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,13 +118,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="justInvest-SYSC4810" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylabs.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mylabs.app" />
+      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem4Test.testLoginCaseSensitiveUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="justInvest-SYSC4810" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylabs.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mylabs.app" />
+      <option name="MAIN_CLASS_NAME" value="mylabs.app.Problem4Test" />
+      <option name="METHOD_NAME" value="testLoginCaseSensitiveUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app in justInvest-SYSC4810" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="justInvest-SYSC4810" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/mylabs/app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.app in justInvest-SYSC4810" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Problem4Test" />
+        <item itemvalue="JUnit.Problem4Test.testLoginCaseSensitiveUsername" />
         <item itemvalue="JUnit.Problem3Test" />
-        <item itemvalue="JUnit.Problem2cTest" />
-        <item itemvalue="Application.Problem2cTest" />
-        <item itemvalue="JUnit.Problem1cTest" />
-        <item itemvalue="Application.Problem1c" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764006902057</updated>
       <workItem from="1764006903109" duration="4917000" />
+      <workItem from="1764083806393" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="Created new project">
       <option name="closed" value="true" />
@@ -226,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764041742028</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Problem3ab + testing">
+      <option name="closed" value="true" />
+      <created>1764043272005</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764043272005</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +274,7 @@
     <MESSAGE value="restart" />
     <MESSAGE value="Problem1c + testing" />
     <MESSAGE value="Problem2c + testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem2c + testing" />
+    <MESSAGE value="Problem3ab + testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem3ab + testing" />
   </component>
 </project>

@@ -1,3 +1,4 @@
+//Zachary Gallant 101272210
 package mylabs.app;
 import java.io.*;
 import java.security.MessageDigest;
@@ -7,13 +8,16 @@ import java.util.Base64;
 import java.util.List;
 
 public class Problem2c {
-
-    private static final String PASSWORD_DATABASE = "passwords.txt";
+    
+    private static String passwordDatabase = "passwords.txt";
     private static final int SALT_BYTES = 16;
     private static final String HASH_ALGORITHM = "SHA-512";
     private static final String DELIMITER = "\\|";
     private static final char FIELD_SEPARATOR = '|';
 
+    public static void setPasswordDatabase(String path) {
+        passwordDatabase = path;
+    }
 
     public static void addUser(String username, String password, String role) throws Exception {
         byte[] randomSalt = generateSalt();
@@ -26,7 +30,7 @@ public class Problem2c {
         entry.append(passwordHash).append(FIELD_SEPARATOR);
         entry.append(role);
 
-        try (FileWriter fw = new FileWriter(PASSWORD_DATABASE, true);
+        try (FileWriter fw = new FileWriter(passwordDatabase, true);
              BufferedWriter bw = new BufferedWriter(fw)) {
             bw.write(entry.toString());
             bw.newLine();
@@ -34,12 +38,12 @@ public class Problem2c {
     }
 
     public static List<String> retrieveUserInfo(String username) throws IOException {
-        File database = new File(PASSWORD_DATABASE);
+        File database = new File(passwordDatabase);
         if (!database.exists()) {
             return null;
         }
 
-        try (BufferedReader br = new BufferedReader(new FileReader(PASSWORD_DATABASE))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(passwordDatabase))) {
             String currentLine;
             while ((currentLine = br.readLine()) != null) {
                 String[] fields = currentLine.split(DELIMITER);
@@ -98,5 +102,10 @@ public class Problem2c {
             return data.get(2);
         }
         return null;
+    }
+
+
+    public static void clearPasswordDatabase() throws IOException {
+        java.nio.file.Files.deleteIfExists(java.nio.file.Paths.get(passwordDatabase));
     }
 }
