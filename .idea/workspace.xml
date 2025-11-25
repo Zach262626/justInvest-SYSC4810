@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Problem3ab + testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem4ab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/passwords_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/sampleUserNamePassword.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem2c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylabs/app/Problem2c.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem2cTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mylabs/app/Problem2cTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Problem4 + testing + main to make everything work together" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +62,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/zachg/OneDrive/Documents/School/NetworkAndSoftwareSecurity/Assignment/justInvest-SYSC4810",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,10 +72,13 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810" />
       <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810\src\test\java\mylabs\app" />
       <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810\src\main\java\mylabs\app" />
-      <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="mylabs.app" />
@@ -184,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764006902057</updated>
       <workItem from="1764006903109" duration="4917000" />
-      <workItem from="1764083806393" duration="4031000" />
+      <workItem from="1764083806393" duration="5479000" />
     </task>
     <task id="LOCAL-00001" summary="Created new project">
       <option name="closed" value="true" />
@@ -250,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764043272005</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Problem4 + testing + main to make everything work together">
+      <option name="closed" value="true" />
+      <created>1764088374704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764088374704</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +278,7 @@
     <MESSAGE value="Problem1c + testing" />
     <MESSAGE value="Problem2c + testing" />
     <MESSAGE value="Problem3ab + testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem3ab + testing" />
+    <MESSAGE value="Problem4 + testing + main to make everything work together" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem4 + testing + main to make everything work together" />
   </component>
 </project>
