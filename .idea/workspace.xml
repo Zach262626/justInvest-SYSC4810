@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="Problem4 + testing + main to make everything work together" />
+    <list default="true" id="dd539f3f-4fa0-4ed9-9791-f49c6f091c0e" name="Changes" comment="password file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Zach262626"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Zach262626&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Zach262626/justInvest-SYSC4810.git",
-    "accountId": "1aac4d85-b9d1-49e7-be30-8f67188ced8b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Zach262626/justInvest-SYSC4810.git&quot;,
+    &quot;accountId&quot;: &quot;1aac4d85-b9d1-49e7-be30-8f67188ced8b&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.3.6\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -46,31 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Problem1c.executor": "Run",
-    "Application.Problem2cTest.executor": "Run",
-    "JUnit.Problem1cTest.executor": "Run",
-    "JUnit.Problem2cTest.executor": "Run",
-    "JUnit.Problem3Test.executor": "Run",
-    "JUnit.Problem4Test.executor": "Run",
-    "JUnit.Problem4Test.testLoginCaseSensitiveUsername.executor": "Run",
-    "JUnit.app in justInvest-SYSC4810.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zachg/OneDrive/Documents/School/NetworkAndSoftwareSecurity/Assignment/justInvest-SYSC4810",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem1c.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem2cTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Problem1cTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Problem2cTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Problem3Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Problem4Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Problem4Test.testLoginCaseSensitiveUsername.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.app in justInvest-SYSC4810.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zachg/OneDrive/Documents/School/NetworkAndSoftwareSecurity/Assignment/justInvest-SYSC4810&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zachg\OneDrive\Documents\School\NetworkAndSoftwareSecurity\Assignment\justInvest-SYSC4810" />
@@ -179,7 +181,9 @@
       <option name="presentableId" value="Default" />
       <updated>1764006902057</updated>
       <workItem from="1764006903109" duration="4917000" />
-      <workItem from="1764083806393" duration="5479000" />
+      <workItem from="1764083806393" duration="9814000" />
+      <workItem from="1764513489520" duration="573000" />
+      <workItem from="1764862586931" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="Created new project">
       <option name="closed" value="true" />
@@ -253,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764088374704</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="password file">
+      <option name="closed" value="true" />
+      <created>1764089862690</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764089862690</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +291,7 @@
     <MESSAGE value="Problem2c + testing" />
     <MESSAGE value="Problem3ab + testing" />
     <MESSAGE value="Problem4 + testing + main to make everything work together" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem4 + testing + main to make everything work together" />
+    <MESSAGE value="password file" />
+    <option name="LAST_COMMIT_MESSAGE" value="password file" />
   </component>
 </project>
